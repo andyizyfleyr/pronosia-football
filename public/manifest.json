@@ -1,0 +1,54 @@
+{
+  "short_name": "PronosIA",
+  "name": "PronosIA Football Expert",
+  "description": "L'IA au service de vos pronostics football. Analyses live, stats et prédictions.",
+  "id": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a",
+  "categories": ["sports", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "https://api.dicebear.com/9.x/shapes/svg?seed=PronosIA&backgroundColor=0f172a&shape1Color=6366f1",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "https://api.dicebear.com/9.x/shapes/svg?seed=PronosIA&backgroundColor=0f172a&shape1Color=6366f1",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1551958219-acbc608c6377?auto=format&fit=crop&w=800&q=80",
+      "sizes": "800x600",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Analyse de match détaillée"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=400&q=80",
+      "sizes": "400x800",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Version mobile native"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Matchs du Jour",
+      "url": "/",
+      "description": "Voir les matchs d'aujourd'hui"
+    },
+    {
+      "name": "Combinés",
+      "url": "/?view=combo",
+      "description": "Générer un ticket combiné"
+    }
+  ]
+}

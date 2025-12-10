@@ -1,0 +1,13 @@
+/* 
+  Ce fichier est requis par le bundler même si nous utilisons CDN Tailwind.
+  Il permet de définir les directives de base si nécessaire.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
